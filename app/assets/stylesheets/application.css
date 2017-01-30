@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+ @import "font-awesome";
+
+ @import url(http://fonts.googleapis.com/css?family=Quicksand:300italic,400italic,700italic,400,300,700);
+ @import url(http://fonts.googleapis.com/css?family=Yeseva+One:300italic,400italic,700italic,400,300,700);
