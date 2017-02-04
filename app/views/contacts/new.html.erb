@@ -1,0 +1,34 @@
+
+<div class="container">
+  <div class="row">
+    <div class="intro-section col-lg-12 text-center">
+      <h1>Contact Us</h1>
+    </div>
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <h2>***********Currently a static form***************</h2>
+      <p>Fill out the form below to send me a message and we will try to get back to you by the next business day!</p>
+    <%= form_for @contact do |f| %>
+      <%= f.label :name %><br>
+      <%= f.text_field :name, class: "form-control", required: true %><br>
+
+      <br>
+
+      <%= f.label :email %><br>
+      <%= f.text_field :email, class: "form-control",required: true %><br>
+
+      <br>
+
+      <%= f.label :message %><br>
+      <%= f.text_area :message, as: :text, class: "form-control" %><br>
+
+      <div class="hidden">
+        <%= f.label :nickname %><br>
+        <%= f.text_field :nickname, hint: 'leave this field blank' %>
+      </div>
+
+      <%= f.submit 'Send Message', class: 'btn btn-default' %>
+
+    <% end %>
+    </div>
+  </div>
+</div>
