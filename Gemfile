@@ -37,7 +37,6 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem 'font-awesome-rails'
-gem 'jquery-rails'
 gem 'jquery-easing-rails'
 gem 'mail_form'
 
